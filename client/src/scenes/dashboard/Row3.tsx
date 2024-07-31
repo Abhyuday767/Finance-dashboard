@@ -49,13 +49,13 @@ const Row3 = () => {
       field: "expense",
       headerName: "Expense",
       flex: 0.5,
-      renderCell: (params: GridCellParams) => `$${params.value}`,
+      renderCell: (params: GridCellParams) => `Rs ${params.value}`,
     },
     {
       field: "price",
       headerName: "Price",
       flex: 0.5,
-      renderCell: (params: GridCellParams) => `$${params.value}`,
+      renderCell: (params: GridCellParams) => `Rs ${params.value}`,
     },
   ];
 
@@ -74,7 +74,7 @@ const Row3 = () => {
       field: "amount",
       headerName: "Amount",
       flex: 0.35,
-      renderCell: (params: GridCellParams) => `$${params.value}`,
+      renderCell: (params: GridCellParams) => `Rs ${params.value}`,
     },
     {
       field: "productIds",
@@ -198,10 +198,9 @@ const Row3 = () => {
           ></Box>
         </Box>
         <Typography margin="0 1rem" variant="h6">
-          Orci aliquam enim vel diam. Venenatis euismod id donec mus lorem etiam
-          ullamcorper odio sed. Ipsum non sed gravida etiam urna egestas
-          molestie volutpat et. Malesuada quis pretium aliquet lacinia ornare
-          sed. In volutpat nullam at est id cum pulvinar nunc.
+        This dashboard provides a detailed financial overview, highlighting revenue and profit trends, 
+        expense comparisons, and recent transactions. Key metrics include improved profit margins, 
+        categorized expenses, and a snapshot of campaign targets and performance.
         </Typography>
       </DashboardBox>
     </>

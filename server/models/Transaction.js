@@ -12,7 +12,7 @@ const TransactionSchema = new Schema(
     },
     amount: {
       type: mongoose.Types.Currency,
-      currency: "USD",
+      currency: "INR",
       get: (v) => v / 100,
     },
     productIds: [

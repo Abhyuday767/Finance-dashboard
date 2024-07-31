@@ -178,7 +178,7 @@ const Row2 = () => {
               axisLine={false}
               tickLine={false}
               style={{ fontSize: "10px" }}
-              tickFormatter={(v) => `$${v}`}
+              tickFormatter={(v) => `Rs${v}`}
             />
             <YAxis
               type="number"
@@ -187,10 +187,10 @@ const Row2 = () => {
               axisLine={false}
               tickLine={false}
               style={{ fontSize: "10px" }}
-              tickFormatter={(v) => `$${v}`}
+              tickFormatter={(v) => `Rs${v}`}
             />
             <ZAxis type="number" range={[20]} />
-            <Tooltip formatter={(v) => `$${v}`} />
+            <Tooltip formatter={(v) => `Rs${v}`} />
             <Scatter
               name="Product Expense Ratio"
               data={productExpenseData}
