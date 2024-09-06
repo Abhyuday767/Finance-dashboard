@@ -5,10 +5,10 @@ Welcome to the Finanseer Dashboard! This project is a comprehensive financial da
 ## Screenshots
 
 ### Dashboard Overview
-![Dashboard Overview](Screenshots\Dashboard.png)
+![Dashboard Overview](Dashboard.png)
 
 ### Revenue and Predictions
-![Revenue and Predictions](Screenshots\Revenue_and_Predictions.png)
+![Revenue and Predictions](Revenue_and_Predictions.png)
 
 ## Features
 
